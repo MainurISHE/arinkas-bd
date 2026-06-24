@@ -1,0 +1,39 @@
+.music-player{
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:30px;
+
+    width:70px;
+
+    height:70px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    font-size:30px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(20px);
+
+    color:white;
+
+    transition:.3s;
+
+    z-index:9999;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
+
+.music-player:hover{
+
+    transform:scale(1.1);
+
+}

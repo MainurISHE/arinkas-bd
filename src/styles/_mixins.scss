@@ -1,0 +1,19 @@
+@mixin glass {
+
+    background:var(--bg-card);
+
+    backdrop-filter:var(--glass-blur);
+
+    border:1px solid var(--border);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+@mixin container{
+
+    width:min(100% - 40px,var(--container));
+
+    margin-inline:auto;
+
+}

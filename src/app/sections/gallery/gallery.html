@@ -1,0 +1,27 @@
+<section class="gallery">
+
+    <div class="gallery__container">
+
+        <h2 class="gallery__title">
+            Твои красивые фоточки ❤️
+        </h2>
+
+        <swiper-container #swiperContainer init="false">
+
+            @for (image of images; track image.id) {
+
+                <swiper-slide>
+
+                    <img
+                        [src]="image.image"
+                        [alt]="image.alt">
+
+                </swiper-slide>
+
+            }
+
+        </swiper-container>
+
+    </div>
+
+</section>

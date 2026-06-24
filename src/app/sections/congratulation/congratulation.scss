@@ -1,0 +1,92 @@
+.congratulation {
+
+    padding: 180px 20px;
+
+}
+
+.congratulation__container {
+
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.congratulation__label {
+
+    color: #c987ff;
+
+    text-transform: uppercase;
+
+    letter-spacing: 4px;
+
+    font-size: .9rem;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+
+}
+
+.congratulation__icon {
+
+    font-size: 4rem;
+
+    margin-bottom: 20px;
+
+}
+
+.congratulation__title {
+
+    color: white;
+
+    font-size: clamp(3rem, 6vw, 5rem);
+
+    line-height: 1.1;
+
+    margin-bottom: 60px;
+
+}
+
+.congratulation__text {
+
+    max-width: 760px;
+
+    margin-bottom: 30px;
+
+    color: #d7dcef;
+
+    font-size: 1.2rem;
+
+    line-height: 2;
+
+}
+
+.congratulation__signature {
+
+    margin-top: 80px;
+
+    color: white;
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+}
+
+.congratulation__signature span {
+
+    display: block;
+
+    margin-top: 12px;
+
+    color: #ff6bc6;
+
+}

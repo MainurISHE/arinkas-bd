@@ -1,0 +1,22 @@
+<section class="final">
+  <div class="final__container">
+    <div class="final__heart">❤️</div>
+
+    <h2 class="final__title">Спасибо, за то что остаешься такой хорошой и доброй.</h2>
+
+    <p class="final__subtitle">И у меня остался ещё один маленький подарочек...</p>
+
+    <button class="final__button" (click)="showSurprise()">Открыть ❤️</button>
+
+    @if (showMessage()) {
+      <div class="final__message">
+        <h3>🎉 С Днём рождения, Арина! 🎉</h3>
+
+        <div class="final__image_container">
+          <img class="final__image" src="assets/images/final/photo1.png" alt="Мы С аринкой!" />
+          <img class="final__image" src="assets/images/final/photo2.png" alt="Мы С аринкой!" />
+        </div>
+      </div>
+    }
+  </div>
+</section>

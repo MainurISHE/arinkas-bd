@@ -1,0 +1,140 @@
+:host{
+
+    position:absolute;
+
+    inset:0;
+
+    z-index:0;
+
+    overflow:hidden;
+
+}
+
+.aurora{
+
+    position:absolute;
+
+    inset:0;
+
+    overflow:hidden;
+
+}
+
+.aurora__blob{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(140px);
+
+    opacity:.55;
+
+    animation:aurora 18s ease-in-out infinite alternate;
+
+}
+
+.aurora__blob--pink{
+
+    width:550px;
+
+    height:550px;
+
+    background:#ff4eb8;
+
+    top:-180px;
+
+    left:-150px;
+
+}
+
+.aurora__blob--purple{
+
+    width:700px;
+
+    height:700px;
+
+    background:#7658ff;
+
+    right:-250px;
+
+    top:20%;
+
+    animation-delay:4s;
+
+}
+
+.aurora__blob--blue{
+
+    width:500px;
+
+    height:500px;
+
+    background:#4dd6ff;
+
+    left:35%;
+
+    bottom:-180px;
+
+    animation-delay:8s;
+
+}
+
+@keyframes aurora{
+
+    0%{
+
+        transform:
+            translate(0,0)
+            scale(1);
+
+    }
+
+    25%{
+
+        transform:
+            translate(60px,-30px)
+            scale(1.1);
+
+    }
+
+    50%{
+
+        transform:
+            translate(-40px,40px)
+            scale(.95);
+
+    }
+
+    75%{
+
+        transform:
+            translate(20px,-60px)
+            scale(1.08);
+
+    }
+
+    100%{
+
+        transform:
+            translate(0,0)
+            scale(1);
+
+    }
+
+}
+
+.aurora__noise{
+
+    position:absolute;
+
+    inset:0;
+
+    opacity:.04;
+
+    background-image:
+        radial-gradient(circle,white 1px,transparent 1px);
+
+    background-size:4px 4px;
+
+}
